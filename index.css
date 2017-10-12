@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0;}
+
+header {
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  min-height: 600px;
+}

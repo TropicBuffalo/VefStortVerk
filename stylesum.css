@@ -6,28 +6,11 @@ header {
 	min-height: 400px;
 }
 
-body {
-	font-size: 22px;
+.texti1 {
+	display: grid;
+	grid-column-gap: 20px;
 }
 
-.col {
-  padding-right: 10px;
-  padding-left: 10px; }
-  .col-12 {
-    width: 100%; }
-  .col-8 {
-    width: 66.66667%; }
-  .col-6 {
-    width: 50%; }
-  .col-4 {
-    width: 33.33333%; }
-  .col-3 {
-    width: 25%; }
-  @media (max-width: 599px) {
-    .col-sm-12 {
-      width: 100%; }
-    .col-sm-6 {
-      width: 50%; }
-    .col-sm-3 {
-      width: 25%; }
+body {
+	font-size: 22px;
 }

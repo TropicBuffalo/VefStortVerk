@@ -4,7 +4,8 @@ header {
   background: url(bg.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  width: 100%;
+  background-attachment: fixed;
+
   min-height: 600px;
   padding: 4em 2em 2em 200px;
   margin-bottom: 2em;

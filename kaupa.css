@@ -1,14 +1,18 @@
 * { margin: 0; padding: 0;}
 
 header {
-  background: url(bg.jpg);
+  background: url(bg-subpage.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  
 
-  min-height: 600px;
+  min-height: 400px;
   padding: 4em 2em 2em 200px;
   margin-bottom: 2em;
+}
+
+header h1 {
+	color:white;
 }
 
 nav {

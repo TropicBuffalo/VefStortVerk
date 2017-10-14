@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0;}
+
+header {
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+
+  min-height: 600px;
+  padding: 4em 2em 2em 200px;
+  margin-bottom: 2em;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color:white;
+}
+nav ul li{
+  text-align:right;
+}
+.stuff{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin:2em;
+}
+.personal {
+	width:400px;
+	padding:
+}
+
+input[type=text], select, textarea {
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+	height:100px;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    text-align: center;
+}

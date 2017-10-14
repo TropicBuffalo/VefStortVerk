@@ -1,5 +1,3 @@
-Fooþjónustan
-Um
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,44 +5,64 @@ Um
     <title>Kaupa</title>
 
 	<link rel="stylesheet" href="grid.css">
+	<link rel="stylesheet" href="kaupa.css">
   </head>
   
-<header>
-<h1>Kaupa</h1>
-Kaupa
-</header>
-
+  <header>
+	<h1>Kaupa</h1>
+  </header>
+    <nav>        
+	  <p>Fooþjónustan</p>
+      <ul>
+        <li><a href="#about">Um</a></li>
+        <li><a href="#buy">Kaupa</a></li>
+      </ul>
+    </nav>
+	
   <body>
+   <div class="stuff">
     <div class="personal">
 	  <h2>Persónuupplýsingar</h2>
-	  Nafn: <input type="text" name="fullname"><br>
-
-	  Kennitala: <input type="text" name="kennitala" value="123456-7890"><br>
-
-      <form action="">
-	    <p>Kyn:</p>
-        <input type="radio" name="gender" value="female"> Kona<br>
-        <input type="radio" name="gender" value="male"> Karl<br>
-        <input type="radio" name="gender" value="other"> Annað
-      </form>
 	  
-	  Sími: <input type="text" name="phone" value="+354 812 3456"><br>
-	  Heimilisfang: <input type="text" name="home"><br>
-      <input type="checkbox" name ="póstlisti"> Skrá mig á póstlista<br> 
+	  <form>
+		<label for="fullname">Nafn:</label><br>
+		<input type="text" id="fullname" name="fullname"><br>
+		
+		<label for="kennitala">Kennitala:</label><br>
+		<input type="text" id="kennitala "name="kennitala" value="123456-7890"><br>
+
+		<label for="gender">Kyn:</label><br>
+        <form action="gender" id="gender">
+          <input type="radio" name="gender" value="female"> Kona<br>
+		  <input type="radio" name="gender" value="male"> Karl<br>
+		  <input type="radio" name="gender" value="other"> Annað
+		</form>
+	  
+		<label for="phone">Sími:</label><br>
+	    <input type="text" name="phone" value="+354 812 3456"><br>
+		
+		<label for="adress">Heimilisfang:</label><br>
+	    <input type="text" name="home"><br>
+        
+		<input type="checkbox" name ="póstlisti"> Skrá mig á póstlista<br> 
 	</div>
 
 	<div class="payment">
 	  <h2>Greiðsluupplýsingar</h2>
-	  Greiða með:
-	  <select>
-		<option value="credit">Kreditkorti</option>
-		<option value="wired">Millifærslu</option>
-		<option value="cash">Reiðufé</option>
-	  </select>
+	  
+	  <form>
+	    <label for="card_payment">Greiða með:</label><br>
+	    <select class="card_payment">
+		  <option value="credit">Kreditkorti</option>
+		  <option value="wired">Millifærslu</option>
+		  <option value="cash">Reiðufé</option>
+	    </select><br>
+		
+	  <label for="cardname">Nafn á korti:</label><br>
+	  <input type="text" id="cardname" name="cardname"><br>
 
-	  Nafn á korti: <input type="text" name="cardname"><br>
-
-	  Kortanúmer:<input type="text" name="cardnumber" value="5999-9999-9999-9999"><br>
+	  <label for="card_number">Kortanúmer:</label><br>
+	  <input type="text" id="card_number" name="cardnumber" value="5999-9999-9999-9999"><br>
 
 	  Gildistími:
 
@@ -72,9 +90,9 @@ Kaupa
 		<option value = "2020">2020</option>
 	  </select>
 	</div>
-	
-<button>Panta</button>
+  </div>
 </body>
+<button>Panta</button>
   <footer>
 	Fooþjónustan
 	123-4567

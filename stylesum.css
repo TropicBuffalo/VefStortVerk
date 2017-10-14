@@ -32,19 +32,27 @@ header {
 }
 
 .þjonusta__col {
-	width: 100%;
+
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 0 20px; 
 }
 
+
+
 .texti1__col {
-	width: 100%;
+  
+
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 0 20px; 
+
+}
+
+.texti1 {
+	grid-column-start: auto;
 }
 
 body {
@@ -52,16 +60,19 @@ body {
 }
 
 .blockquote__col {
-	width: 100%;
+
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 0 20px; 
 }
 
+.quote {
+	grid-column: 3;
+}
 
 .texti2__col {
-	width: 100%;
+
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
@@ -69,9 +80,10 @@ body {
 }
 
 .footer__col {
-		width: 100%;
+
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 0 20px; 
+  
 }

@@ -17,7 +17,7 @@ header h1 {
 
 nav {
   position: fixed;
-  width: 100%;
+
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.8);
@@ -28,7 +28,7 @@ nav ul li{
 }
 .stuff{
 	display:flex;
-	width:100%;
+
 	justify-content:center;
 	flex-wrap: wrap;
 	margin:2em;
@@ -46,6 +46,11 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
+}
+
+.panta {
+	text-align: center;
+	margin-bottom: 4em;
 }
 
 footer {

@@ -28,9 +28,12 @@ header {
 	
 	color: white;
 	min-height: 400px;
-
+	
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
 header ul {
 
@@ -43,7 +46,13 @@ header ul {
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; 
+  margin: 80px 0 20px; 
+}
+
+.þjonusta {
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 nav {
@@ -68,20 +77,25 @@ nav ul li{
   
 }
 
+.texti1__test {
+
+  margin: 0 0 40px; 
+}
+
 .texti1 p{
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .texti2 p{
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .quote {
-	font-size: 24px;
+	font-size: 21px;
 }
 
 .texti3 p{
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .blockquote__col {
@@ -89,12 +103,9 @@ nav ul li{
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; 
+  margin: 100px 0 20px; 
 }
 
-.quote {
-	grid-column: 3;
-}
 
 .texti2__col {
 
@@ -117,13 +128,14 @@ nav ul li{
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; 
+  margin: 0 0 0; 
   
 }
 
 footer {
-
-left: 0;
+	
+	text-align: center;
+	left: 0;
     bottom: 0;
 	height:100px;
     width: 100%;

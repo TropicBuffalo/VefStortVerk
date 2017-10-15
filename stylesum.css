@@ -98,14 +98,14 @@ nav ul li{
 	font-size: 16px;
 }
 
-.blockquote__col {
+.quote {
 
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; 
-}
+  margin: 40px 0 0 120px; 
 
+}
 
 .texti2__col {
 
@@ -162,4 +162,8 @@ footer {
 .test {
 	display: flex;
 
+}
+
+.test2 {
+	max-width: 600px;
 }

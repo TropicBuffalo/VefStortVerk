@@ -69,8 +69,17 @@ nav ul li{
 }
 
 
+<<<<<<< HEAD
 .texti1 p{
 	font-size: 22px;
+=======
+.texti1__col span {
+	margin-bottom: 20px;
+}
+
+body {
+	font-size: 36px;
+>>>>>>> origin/master
 }
 
 .blockquote__col {

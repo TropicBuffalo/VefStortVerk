@@ -11,6 +11,10 @@ header {
   margin-bottom: 2em;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header h1 {
   color: #f1f1f1;
   font-size: 4em;
@@ -41,6 +45,7 @@ footer {
     background-color: #202020;
     color: white;
     text-align: center;
+	font-size: 14px;
 }
 .footer_top {
 	width:50%;

@@ -126,19 +126,9 @@ nav ul li{
   margin: 0 0 100px 0; 
 }
 
-.footer__col {
-
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0 0 0; 
-  
-}
-
 footer {
 	display:flex;
 	flex-flow: row wrap;
-	
     left: 0;
     bottom: 0;
 	height:100%;
@@ -146,11 +136,14 @@ footer {
     background-color: #202020;
     color: white;
     text-align: center;
+	font-size: 14px;
 }
+
 .footer_top {
 	width:50%;
 	margin-top:1em;
 }
+
 .footer_top p {
 	padding: 2px;
 }
@@ -167,7 +160,6 @@ footer {
 
 .test {
 	display: flex;
-
 }
 
 .test2 {

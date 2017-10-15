@@ -68,18 +68,20 @@ nav ul li{
   
 }
 
-
-<<<<<<< HEAD
 .texti1 p{
-	font-size: 22px;
-=======
-.texti1__col span {
-	margin-bottom: 20px;
+	font-size: 21px;
 }
 
-body {
-	font-size: 36px;
->>>>>>> origin/master
+.texti2 p{
+	font-size: 21px;
+}
+
+.quote {
+	font-size: 24px;
+}
+
+.texti3 p{
+	font-size: 21px;
 }
 
 .blockquote__col {
@@ -119,7 +121,7 @@ body {
   
 }
 
-.footer {
+footer {
 
 left: 0;
     bottom: 0;

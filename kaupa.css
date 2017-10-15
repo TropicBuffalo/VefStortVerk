@@ -17,7 +17,7 @@ header h1 {
 
 nav {
   position: fixed;
-
+  width: 100%;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.8);

@@ -7,13 +7,18 @@ header {
   
 
   min-height: 400px;
-  padding: 4em 2em 2em 200px;
   margin-bottom: 2em;
+  
+  align-items: center;
+	height: 90%; 
+    width:100%;
+    display:flex;
 }
 
 header h1 {
 	color:white;
 	font-size: 4em;
+	padding-left:1em;
 }
 
 nav {
@@ -29,7 +34,6 @@ nav ul li{
 }
 .stuff{
 	display:flex;
-
 	justify-content:center;
 	flex-wrap: wrap;
 	margin:2em;

@@ -33,7 +33,33 @@ nav {
 nav ul li{
   text-align:right;
 }
+.pictures {
+	display:flex;
+	flex-flow: row wrap;
+	
+    left: 0;
+    bottom: 0;
+	height:100%;
+    width: 100%;
+	text-align: center;
+	align-items:center;
+	object-fit:contain;
 
+}
+.pic_boxes {
+	width:33%;
+}
+.img {
+	border-radius:50%;
+	width:80%;
+}
+
+/*Button */
+.kaupa {
+	text-align: center;
+	margin-bottom: 4em;
+}
+/* Footer stuff starts here */
 footer {
 	display:flex;
 	flex-flow: row wrap;

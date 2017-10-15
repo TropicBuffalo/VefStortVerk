@@ -33,7 +33,7 @@ nav ul li{
 footer {
 	display:flex;
 	flex-flow: row wrap;
-	
+	font-size:14px;
     left: 0;
     bottom: 0;
 	height:100%;

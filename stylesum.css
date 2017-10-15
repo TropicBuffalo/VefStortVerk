@@ -96,7 +96,6 @@ nav ul li{
 
 .quote__col {
 
-  display: flex;
   padding-right: 10px;
   padding-left: 10px;
   margin: 40px 0 0 120px; 
@@ -160,15 +159,16 @@ footer {
 
 .test {
 	display: flex;
-	@media (min-width: 600px) {
-		display: inline;
+	@media (min-width: 400px) {
+		display: block;
 	}
 }
 
 .test2 {
+	
 	max-width: 800px;
 	@media (min-width: 600px) {
-		max-width: 400px;
+		max-width: 600px;
 	}
 
 }

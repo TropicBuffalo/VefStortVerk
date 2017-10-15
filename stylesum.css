@@ -90,9 +90,6 @@ nav ul li{
 	font-size: 16px;
 }
 
-.quote {
-	font-size: 18px;
-}
 
 .texti3 p{
 	font-size: 16px;
@@ -104,7 +101,13 @@ nav ul li{
   padding-right: 10px;
   padding-left: 10px;
   margin: 40px 0 0 120px; 
+  font-size: 16px;
+}
 
+.quote p {
+	font-size: 24px;
+	font-style: italic;
+	margin-bottom: 20px;
 }
 
 .texti2__col {
@@ -120,7 +123,7 @@ nav ul li{
   display: flex;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; 
+  margin: 0 0 100px 0; 
 }
 
 .footer__col {

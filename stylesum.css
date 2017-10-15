@@ -31,6 +31,7 @@ header {
 
 }
 
+
 header ul {
 
   line-height: 400px;
@@ -64,16 +65,12 @@ nav ul li{
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 0 20px; 
-
+  
 }
 
 
-.texti1__col span {
-	margin-bottom: 20px;
-}
-
-body {
-	font-size: 16px;
+.texti1 p{
+	font-size: 22px;
 }
 
 .blockquote__col {

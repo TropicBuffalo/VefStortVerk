@@ -77,7 +77,7 @@ nav ul li{
   
 }
 
-.texti1__test {
+.texti1__fyrirsogn {
 
   margin: 0 0 40px; 
 }
@@ -157,14 +157,14 @@ footer {
   color:grey;
 }
 
-.test {
+.textiquote {
 	display: flex;
 	@media (min-width: 400px) {
 		display: block;
 	}
 }
 
-.test2 {
+.textinn {
 	
 	max-width: 800px;
 	@media (min-width: 600px) {

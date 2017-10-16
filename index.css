@@ -91,19 +91,31 @@ li a{
 	padding-top:2px;
 	padding-bottom:2px;
 }
+
 .Trihard {
 	display:flex;
+	width:100%;
+}
+
+.sextant{
+	float:right;
+	width:50%;
 }
 .sextant_img {
-	float:right;
-	width:20%;
+	max-width:100%;
 }
+
 .VoHiYo {
 	display:flex;
 	float:left;
-	flex-direction:column;
 	width:50%;
+	flex-direction:column;
+	
 }
+.1 {
+	padding:2em;
+}
+
 .3 {
 	margin-bottom:50px;
 }

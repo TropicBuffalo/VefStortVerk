@@ -12,21 +12,6 @@ header {
   
 }
 
-header h2 {
-	
-	margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-
-}
-
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -47,16 +32,37 @@ header h1 {
     font-size: 21px;
     text-align: center;
 
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    
+	animation-name: fadein;
+	animation-duration: 1s;
 
+	
 }
 
-header button {
+header h2 {
+
 	margin-top: 25px;
     font-size: 21px;
     text-align: center;
 
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+
+	animation-name: fadein;
+
+	animation-duration: 5s;
+
+}
+
+header button {
+
+	margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+
+	animation-name: fadein;
+
+	animation-duration: 7s;
+
 
 }
 

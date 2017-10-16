@@ -26,9 +26,9 @@ body {
 }
 
 .VoHiYo h3 {
+	padding-top: 60px;
 	font-family: 'Roboto Slab', serif;
-	padding-bottom:1em;
-	padding-top:1em;
+	
 }
 
 header h1 {
@@ -99,11 +99,15 @@ li a{
 }
 
 .sextant{
-	float:right;
+	
 	width:50%;
+	
 }
 .sextant_img {
+	float:right;
+	max-height:600px;
 	max-width:100%;
+	padding-bottom: 160px;
 }
 
 .VoHiYo {

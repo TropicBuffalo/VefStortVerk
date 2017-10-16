@@ -77,17 +77,18 @@ ul {
   margin:0;
   padding:0;
 }
+
 li{
   float:left;
    padding: 14px 16px;
 }
+
 li a{
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
 }
-
 
 .pictures {
 	display:flex;

@@ -55,17 +55,26 @@ header ul {
 	font-weight: bold;
 }
 
-nav {
+ul {
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.8);
   color:white;
+  list-style-type:none;
+  margin:0;
+  padding:0;
 }
-
-nav ul li{
-  text-align:right;
+li{
+  float:left;
+   padding: 14px 16px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .texti1__col {

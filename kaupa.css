@@ -57,11 +57,24 @@ input[type=text], select, textarea {
     resize: vertical 
 }
 
+/*Button */
 .panta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.panta button{
+	background-color: grey;
 	text-align: center;
 	margin-bottom: 4em;
+	border-radius: 4px;
+	color:white;
+	border: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	width:180px;
 }
-
+/*Footer below */
 footer {
 	display:flex;
 	flex-flow: row wrap;

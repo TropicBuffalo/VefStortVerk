@@ -114,7 +114,6 @@ li a{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	
 	height:100%;
     width: 100%;
 	text-align: center;
@@ -196,4 +195,8 @@ footer {
 
 .uppertext {
 	float: right;
+}
+
+.pic_boxes img {
+	padding-left:130px;
 }

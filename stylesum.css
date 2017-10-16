@@ -28,17 +28,20 @@ header {
 	
 	color: white;
 	min-height: 400px;
-	
+	align-items: center;
+	height: 90%; 
+    width:100%;
+    display:flex;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-header ul {
-
-  line-height: 400px;
-
+header h1 {
+	color:white;
+	font-size: 4em;
+	padding-left:1em;
 }
 
 .þjonusta__col {

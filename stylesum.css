@@ -1,31 +1,30 @@
 * { margin: 0; padding: 0;}
 
 .col {
-  padding-right: 10px;
-  padding-left: 10px; }
-  .col-12 {
-    width: 100%; }
-  .col-8 {
-    width: 66.66667%; }
-  .col-6 {
-    width: 50%; }
-  .col-4 {
-    width: 33.33333%; }
-  .col-3 {
-    width: 25%; }
-  @media (max-width: 599px) {
-    .col-sm-12 {
-      width: 100%; }
-    .col-sm-6 {
-      width: 50%; }
-    .col-sm-3 {
-      width: 25%; } }
+	padding-right: 10px;
+	padding-left: 10px; }
+	.col-12 {
+		width: 100%; }
+	.col-8 {
+		width: 66.66667%; }
+	.col-6 {
+		width: 50%; }
+	.col-4 {
+		width: 33.33333%; }
+	.col-3 {
+		width: 25%; }
+	@media (max-width: 599px) {
+		.col-sm-12 {
+			width: 100%; }
+		.col-sm-6 {
+			width: 50%; }
+		.col-sm-3 {
+			width: 25%; } }
 
 header {
 	background-image: url(bg-subpage.jpg);
     background-size: cover;
 	background-position: 50% 50%; 
-	
 	color: white;
 	min-height: 400px;
 	align-items: center;
@@ -45,11 +44,10 @@ header h1 {
 }
 
 .þjonusta__col {
-
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 80px 0 20px; 
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 80px 0 20px; 
 }
 
 .þjonusta {
@@ -59,19 +57,19 @@ header h1 {
 }
 
 ul {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.8);
-  color:white;
-  list-style-type:none;
-  margin:0;
-  padding:0;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+	color:white;
+	list-style-type:none;
+	margin:0;
+	padding:0;
 }
 li{
-  float:left;
-   padding: 14px 16px;
+	float:left;
+	padding: 14px 16px;
 }
 li a{
     display: block;
@@ -81,17 +79,14 @@ li a{
 }
 
 .texti1__col {
-  
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0 0 20px; 
-  
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 0 20px; 
 }
 
 .texti1__fyrirsogn {
-
-  margin: 0 0 40px; 
+	margin: 0 0 40px; 
 }
 
 .texti1 p{
@@ -107,11 +102,10 @@ li a{
 }
 
 .quote__col {
-
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 40px 0 0 120px; 
-  font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 40px 0 0 120px; 
+	font-size: 16px;
 }
 
 .quote__col p {
@@ -121,19 +115,17 @@ li a{
 }
 
 .texti2__col {
-
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0 0 20px; 
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 0 20px; 
 }
 
 .texti3__col {
-
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0 0 100px 0; 
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 0 100px 0; 
 }
 
 footer {
@@ -159,14 +151,14 @@ footer {
 }
 
 .footer_bottom {
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  position: relative;
-  margin-top:1em;
-  padding:1em;
-  border-top: 1px solid white;
-  color:grey;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	margin-top:1em;
+	padding:1em;
+	border-top: 1px solid white;
+	color:grey;
 }
 
 .textiquote {

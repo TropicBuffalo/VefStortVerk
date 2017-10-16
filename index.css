@@ -88,6 +88,14 @@ li a{
     text-decoration: none;
 }
 
+.nav_kaupa {
+	background-color:grey;
+	border-radius:4px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
 
 .pictures {
 	display:flex;

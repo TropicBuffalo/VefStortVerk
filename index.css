@@ -162,3 +162,7 @@ footer {
   border-top: 1px solid white;
   color:grey;
 }
+
+.uppertext {
+	float: right;
+}

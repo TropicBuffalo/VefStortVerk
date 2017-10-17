@@ -1,15 +1,15 @@
 * { margin: 0; padding: 0;}
 
 header {
-  background: url(bg-subpage.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
+	background: url(bg-subpage.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
   
 
-  min-height: 400px;
-  margin-bottom: 2em;
+	min-height: 400px;
+	margin-bottom: 2em;
   
-  align-items: center;
+	align-items: center;
 	height: 90%; 
     width:100%;
     display:flex;
@@ -64,14 +64,18 @@ li a{
 
 .stuff{
 	display:flex;
-	justify-content:center;
+	flex-direction:row;
+	width:100%;
 	flex-wrap: wrap;
 	margin:2em;
+	padding:3em;
+	padding-left:5em;
 }
 .personal {
-	width:400px;
-	padding:
-	
+	width:50%;
+}
+.payment {
+	width:50%
 }
 
 input[type=text], select, textarea {
@@ -79,7 +83,6 @@ input[type=text], select, textarea {
     padding: 5px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
-
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 

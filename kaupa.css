@@ -78,6 +78,7 @@ li a{
 	width:50%
 }
 
+
 input[type=text],select,  textarea {
 	width:50%;
     padding: 5px; 
@@ -88,9 +89,14 @@ input[type=text],select,  textarea {
     resize: vertical;
 }
 .yearmonth {
-	max-width: 130px;
+	display:flex;
 }
-
+.Year {
+	width:32%;
+}
+.Month {
+	width:32%;
+}
 /*Button */
 .panta {
 	display: flex;

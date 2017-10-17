@@ -69,7 +69,7 @@ li a{
 	flex-wrap: wrap;
 	margin:2em;
 	padding:3em;
-	padding-left:5em;
+	padding-left:4em;
 }
 .personal {
 	width:50%;
@@ -78,14 +78,17 @@ li a{
 	width:50%
 }
 
-input[type=text], select, textarea {
+input[type=text],select,  textarea {
 	width:50%;
     padding: 5px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical;
+}
+.yearmonth {
+	max-width: 130px;
 }
 
 /*Button */

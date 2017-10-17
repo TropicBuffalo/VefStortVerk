@@ -57,13 +57,13 @@
 	  
 	      <form>
 	        <label for="card_payment">Greiða með:</label><br>
-			<div class="cardpayment">
+			
 	        <select class="card_payment">
 		      <option value="credit">Kreditkorti</option>
 		      <option value="wired">Millifærslu</option>
 		      <option value="cash">Reiðufé</option>
 	        </select><br>
-			</div>
+			
 		    <label for="cardname">Nafn á korti:</label><br>
 	        <input type="text" id="cardname" name="cardname"><br>
 
@@ -71,8 +71,8 @@
 	        <input type="text" id="card_number" name="cardnumber" value="5999-9999-9999-9999"><br>
 
 	        Gildistími:<br>
-
-	        <label for="month">Mán</label>
+			<div class="yearmonth">
+	        <label for="month">Mán: </label>
 	        <select name="month" id="month">
 		      <option value = "1">01</option>
 		      <option value = "2">02</option>
@@ -88,13 +88,14 @@
 		      <option value = "12">12</option> 
 	        </select>
 	    
-	        <label for="year">Ár</label>
+	        <label for="year">Ár: </label>
             <select name="year" id="year">
 		      <option value = "2017">2017</option>
 		      <option value = "2018">2018</option>
 		      <option value = "2019">2019</option>
 		      <option value = "2020">2020</option>
 	        </select>
+			</div>
 		  </form>
 	    </div>
 	  </div>

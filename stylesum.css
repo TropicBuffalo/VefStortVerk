@@ -22,7 +22,7 @@
 			width: 25%; } }
 
 header {
-	background-image: url(../myndir/bg-subpage.jpg);
+	background-image: url(bg-subpage.jpg);
     background-size: cover;
 	background-position: 50% 50%; 
 	color: white;

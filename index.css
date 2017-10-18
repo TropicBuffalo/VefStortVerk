@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0;}
 
 header {
-  background: url(../myndir/bg.jpg);
+  background: url(bg.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
